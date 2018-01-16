@@ -152,7 +152,8 @@ function moveDodger(e) {
      } else if (e.which === RIGHT_ARROW) {
        window.moveDodgerRight();
      } else {
-       return e.preventDefault();
+       e.stopPropagation();
+       e.preventDefault();
      }
 }
 
