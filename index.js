@@ -151,6 +151,8 @@ function moveDodger(e) {
        window.moveDodgerLeft();
      } else if (e.which === RIGHT_ARROW) {
        window.moveDodgerRight();
+     } else {
+       return e.preventDefault();
      }
 }
 
