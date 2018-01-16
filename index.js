@@ -147,13 +147,13 @@ function moveDodger(e) {
    * And be sure to use the functions declared below!
    */
    
-   window.addEventListener('keydown', function(e) {
+   document.addEventListener('keydown', function(e) {
      if (e.which === LEFT_ARROW) {
        window.moveDodgerLeft();
      }
    })
    
-   window.addEventListener('keydown', function(e) {
+   document.addEventListener('keydown', function(e) {
      if (e.which === RIGHT_ARROW) {
        window.moveDodgerRight();
      }
